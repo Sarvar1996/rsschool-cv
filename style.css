@@ -1,0 +1,394 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#projimg {
+    width: 100%;
+    height: 130px;
+}
+
+#thumb {
+    height: 200px;
+    width: 100%;
+}
+
+.thumbnail:hover {
+    border: 1px solid rgb(0, 230, 77);
+
+}
+
+.alink {
+    color: rgb(0, 230, 77);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.FirstPage {
+
+    background: linear-gradient( rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)), url(images/construction.jpg);
+    /* Full height */
+    width: 100%;
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+
+}
+
+.navbar-header {
+    padding-left: 30px;
+}
+
+nav {
+    padding: 2%;
+}
+
+#abimage {
+    margin-top: 30px;
+    display: inline-block;
+    border: 10px solid rgb(0, 230, 77);
+
+
+}
+
+#textabcomp {
+    padding-top: 25px;
+    font-size: 15px;
+    color: #888;
+    letter-spacing: 2px;
+
+}
+
+.welcometitle {
+    margin-top: 150px;
+    font-size: 78px;
+}
+
+#addres {
+    font-size: 35px;
+}
+
+#welcome {
+    padding-top: 35px;
+    color: rgb(0, 230, 77);
+    font-size: 40px;
+
+}
+
+#comName {
+    font-variant: small-caps;
+    font-size: 60px;
+    font-weight: 500;
+    color: #808080;
+
+}
+
+#prod {
+    padding-bottom: 150px;
+
+}
+
+.product {
+    background-image: url(images/team-bg.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+h3 {
+    color: #4d4d4d;
+}
+
+#buildimg {
+    height: 300px;
+    width: 100%;
+}
+
+#construction {
+    padding-top: 50px;
+    margin-top: 30px;
+    color: #595959;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 450;
+    line-height: 42px;
+}
+
+.logoclass {
+    height: 180px;
+    width: 200px;
+}
+
+#imgcontact {
+    padding-top: 100px;
+}
+
+#constructed {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 450;
+    line-height: 42px;
+    padding-bottom: 50px;
+}
+
+.construct {
+    background-color: #f8f8f8;
+    padding-bottom: 140px;
+}
+
+#name {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3E753F;
+}
+
+#job {
+    font-size: 20px;
+    color: #3E753F;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.chnglang
+{
+    height: 25px;
+    width: 30px;
+ 
+}
+#contactimgage
+{
+ height: 350px;
+    width: 100%;
+}
+#contactimg {
+    height: 280px;
+    width: 100%;
+}
+
+.contacts {
+    background-color: #f8f8f8;
+
+}
+
+#contact {
+    padding: 100px 0 50px 0;
+}
+
+.iconsClass {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.abcomp {
+    padding: 40px 150px 10px 150px;
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .FirstPage {
+        width: 100%;
+        height: 77vh;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #addres {
+        font-size: 20px;
+    }
+
+
+
+    .logoclass {
+        height: 30px;
+        width: 40px;
+    }
+    .abcomp {
+
+        padding: 0 0 0 0;
+        margin-bottom: 20px;
+    }
+    .alink {
+        font-size: 10px;
+    }
+
+    #textabcomp {
+        font-size: 10px;
+        color: #888;
+        letter-spacing: 1px;
+        padding: 24px 0px 10px 44px;
+
+    }
+    #textid {
+        width: 46vh;
+        margin: 0;
+    }
+    .welcometitle {
+        font-size: 22px;
+    }
+    #welcome {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 80px;
+        margin: 0 0 0 0;
+    }
+    #comName {
+        width: 100%;
+
+        text-align: center;
+        padding-left: 71px;
+        font-size: 36px;
+    }
+    nav {
+        margin-left: -20px;
+    }
+    #construction {
+        font-size: 25px;
+    }
+    #abimage {
+        margin-top: 10px;
+        height: 150px;
+        width: 18%;
+        position: absolute;
+        display: inline-block;
+        border: 0;
+        padding-left: 20px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .iconsClass {
+        font-size: 15px;
+    }
+    h3 {
+        color: #595959;
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+    h1 {
+        padding-top: 0;
+    }
+    body {
+        width: 100%;
+    }
+    a {
+        padding: 0;
+        margin: 0;
+    }
+    .columns {
+        margin-bottom: 70px;
+    }
+    #lgcol {
+        padding: 0;
+        margin: 0;
+    }
+
+    #imgcontact {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #copName {
+        font-size: 20px;
+    }
+    #welcome {
+        font-size: 25px;
+    }
+    body {
+        width: 100%;
+    }
+    .slide-text {
+        padding-top: 760px;
+    }
+    .columns {
+        margin-bottom: 70px;
+    }
+    #abimage {
+        margin-top: 0;
+        height: 150px;
+        width: 40%;
+        position: absolute;
+        display: inline-block;
+        border: 0;
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+
+    #imgcontact {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .FirstPage {
+        width: 100%;
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    h5{font-size: 13px;}
+    #addres
+    {
+        font-size: 15px;
+    }
+    .slide-text {
+        padding-top: 17px;
+    }
+    .construct
+    {
+        padding-bottom: 40px;
+    }
+    #constructed
+    {
+        font-size: 40px;
+    }
+    #construction {
+        padding-top: 0;
+    }
+
+    #prod {
+        padding-bottom: 50px;
+    }
+    #proj {
+        padding-bottom: 50px;
+    }
+    #contact {
+        padding: 0;
+    }
+
+    #imgcontact {
+        padding-top: 10px;
+    }
+}
