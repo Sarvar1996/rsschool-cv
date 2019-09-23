@@ -16,7 +16,7 @@ The site managing and optimizing.
 Working with personal.*
 
 
-###vBasicSteps, Tashkent UZ/ Android developer    
+### BasicSteps, Tashkent UZ/ Android developer    
 April 2019 – August 2019
 			
 *Building enterprise application for the Android platform
